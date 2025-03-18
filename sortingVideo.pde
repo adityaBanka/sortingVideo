@@ -27,7 +27,7 @@ void setup() {
     thread("setter1");
     thread("setter2");
 
-    noLoop();
+    // noLoop();
     System.out.println("here");
 }
 

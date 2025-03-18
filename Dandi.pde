@@ -6,7 +6,7 @@ class Dandi
     
     Dandi()
     {
-        this.value = int(random(0, 255));
+        this.value = int(random(0, 500));
         this.isSorted = false;
         this.colour = color(int(random(0, 255)), int(random(0, 255)), int(random(0, 255)));
         this.colour = color(#67D0DD);

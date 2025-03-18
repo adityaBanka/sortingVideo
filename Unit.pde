@@ -21,6 +21,7 @@ class Unit{
         for (Dandi pair : elements)
         {
             fill(pair.getColor());
+            fill(#67D0DD);
             float delY = height - pair.getValue();
             rect(i++ * thickness, delY - delta, thickness, pair.getValue());
         }
